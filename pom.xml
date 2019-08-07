@@ -116,7 +116,7 @@
 							<testFailureIgnore>true</testFailureIgnore>
 							<skipTests>false</skipTests>
 							<includes>
-								<include>**/SmokeTestRunner.java</include>
+								<include>**/FunctionalRunner.java</include>
 							</includes>
 						</configuration>
 					</plugin>
@@ -135,7 +135,7 @@
 							<argLine>-Dfile.encoding=UTF-8</argLine>
 							<useFile>false</useFile>
 							<includes>
-								<include>**/SmokeTestRunner.java</include>
+								<include>**/FunctionalRunner.java</include>
 							</includes>
 							<testFailureIgnore>true</testFailureIgnore>
 						</configuration>

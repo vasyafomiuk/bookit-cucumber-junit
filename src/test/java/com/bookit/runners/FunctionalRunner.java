@@ -10,15 +10,15 @@ import cucumber.api.junit.Cucumber;
 		
 		plugin={"pretty:target/cucumber-pretty.txt",
 				"html:target/html-report",
-				"json:target/cucumber.json",
+				"json:target/c.json",
 				"junit:target/junit/junit-report.xml",
 			},
-		tags = {"~@ignore",},   
+		tags = {"@BRIT-4533",},
 		features= {
-			"src/test/resources/features/Hunt.feature"  		
+			"src/test/resources/features"
 		},
         glue= {"com/bookit/stepdefinitions","com/bookit/suitesetupandteardown"},
-        //dryRun=true,
+        dryRun=true,
         monochrome = true
 		)
 public class FunctionalRunner {
